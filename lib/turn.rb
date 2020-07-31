@@ -53,7 +53,7 @@ def turn(board)
 #  token = gets.strip
 
   if valid_move?(board, index)
-    move(board, index, token)
+    move(board, index)
     display_board(board)
   else
     turn(board)
